@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research repository, please cite this release using the
+  metadata below. Add the Zenodo DOI to this file after DOI registration.
+type: software
+title: 'Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture'
+authors:
+  - family-names: Tan
+    given-names: Sizhe
+  - name: GPT-Obot
+version: 1.0.0
+date-released: 2026-10-17
+repository-code: 'https://github.com/sizhet/Beyond-the-LLM-Boundary-Structural-Hybrid-Intelligence'
+url: 'https://github.com/sizhet/Beyond-the-LLM-Boundary-Structural-Hybrid-Intelligence'
+license: Apache-2.0
+abstract: >-
+  A conceptual research series investigating the boundaries of language-centric
+  large language models and proposing Boundary-Aware Structural Hybrid
+  Intelligence (BASHI). The eight-paper framework examines computational
+  representation barriers, the economics of structural specialization,
+  perspective sovereignty and ownership, localization-execution decoupling,
+  CCC-native structural semantic units, evidence-based governance, and
+  open-ended structural intelligence growth. Its architectural and economic
+  hypotheses are proposals for future empirical validation, not established
+  benchmark results.
+keywords:
+  - structural intelligence
+  - large language models
+  - hybrid artificial intelligence
+  - computational representation barriers
+  - BASHI
+  - structural localization
+  - CCC-native intelligence
+  - perspective sovereignty
+  - AI governance
+  - open-ended learning
