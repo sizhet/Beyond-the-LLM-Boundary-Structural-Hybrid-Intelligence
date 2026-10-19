@@ -1,54 +1,41 @@
 {
-  "title": "Universal Control Planes and Scoring Tree/Forest/Folding for Structural Intelligence (UCPSF)",
-  "description": "<p>This research repository introduces Universal Control Planes and Scoring Tree/Forest/Folding for Structural Intelligence (UCPSF), a proposed architectural framework connecting Generalized Scoring Intelligence, Scoring Trees and Forests, structural folding, Common Concept Core (CCC) distillation, hybrid intelligence, and governed Structural Recursive Self-Improvement (RSI).</p><p>The framework investigates three proposed Scoring Operator families: Value-Based Folding, Branching-Based Folding, and ANN Scoring Nodes. It explores Unaligned AND Folding across heterogeneous evaluation structures, recursive extraction of reusable Scoring CCCs, Perspective-Aware Meta-Scoring, and adaptive composition of Localization Intelligence and Per-Node Intelligence.</p><p>UCPSF further proposes a Universal Control Plane for coordinating execution, evaluation, evidence, resource allocation, policy enforcement, and governed structural evolution. Particular emphasis is placed on explicit specifications and contracts, independent validation, counter-evidence, anti-Goodhart mechanisms, and authorized structural promotion.</p><p>Version 1.0.0 presents eight core research papers, three conceptual case studies, an architecture figure catalog, and a research roadmap. It is a theory-first research release. The proposed mechanisms, generality claims, and performance hypotheses require further formalization and empirical validation.</p>",
+  "title": "Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture",
+  "description": "A conceptual research series examining the boundaries of language-centric large language models and proposing Boundary-Aware Structural Hybrid Intelligence (BASHI). Eight papers investigate language coverage, computational representation barriers, the economics of scaling and specialization, perspective sovereignty and context ownership, structural localization–execution decoupling, CCC-native structural semantic units, a governed hybrid architecture, and open-ended structural intelligence growth. The architecture and research hypotheses are proposals for critical evaluation, not claims of empirical validation.",
   "creators": [
     {
       "name": "Tan, Sizhe"
-    }
-  ],
-  "contributors": [
+    },
     {
-      "name": "GPT-Obot",
-      "type": "Other"
+      "name": "GPT-Obot"
     }
   ],
+  "version": "v1.0.0",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "language": "eng",
   "keywords": [
     "Structural Intelligence",
-    "Generalized Scoring Intelligence",
-    "Scoring Tree",
-    "Scoring Forest",
-    "Structural Folding",
-    "Value-Based Folding",
-    "Branching-Based Folding",
-    "ANN Scoring Nodes",
-    "Unaligned AND Folding",
-    "Common Concept Core",
-    "Recursive CCC Distillation",
-    "Perspective-Aware Optimization",
-    "Meta-Scoring Intelligence",
-    "Hybrid Localization",
-    "Per-Node Intelligence",
-    "Dual-Hybrid Intelligence",
-    "Universal Control Plane",
-    "Structural Recursive Self-Improvement",
-    "AI Relay",
-    "AI Governance",
-    "Anti-Goodhart",
-    "Collective Structural Learning"
+    "Boundary-Aware Structural Hybrid Intelligence",
+    "BASHI",
+    "Large Language Models",
+    "Computational Representation Barriers",
+    "Structural Specialization",
+    "Perspective Sovereignty",
+    "Context Ownership",
+    "Localization–Execution Decoupling",
+    "CCC-Native Intelligence",
+    "Structural Semantic Units",
+    "Policy Control Plane",
+    "Open-Ended Structural Growth"
   ],
-  "license": "Apache-2.0",
-  "upload_type": "publication",
-  "publication_type": "technicalnote",
-  "publication_date": "2026-10-15",
-  "version": "1.0.0",
-  "language": "eng",
-  "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/sizhet/Universal-Control-Planes-and-Scoring-Folding",
+      "identifier": "https://github.com/sizhet/Beyond-the-LLM-Boundary-Structural-Hybrid-Intelligence",
       "relation": "isSupplementTo",
-      "scheme": "url"
+      "resource_type": "software"
     }
   ],
-  "notes": "UCPSF v1.0.0 is a conceptual research and architecture release by Sizhe Tan, developed with GPT-Obot as an AI research and writing collaborator. The repository presents proposed mechanisms and research hypotheses rather than completed implementations or independently validated experimental results. The DOI will be assigned upon Zenodo archiving."
+  "notes": "Initial conceptual research and reference-architecture release. No benchmark results or empirical superiority claims are asserted. Confirm repository URL, creator preferences, and publication date before release."
 }
