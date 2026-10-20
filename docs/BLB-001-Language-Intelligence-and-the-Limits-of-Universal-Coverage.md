@@ -37,6 +37,10 @@ This is a conceptual research paper. Its quantitative hypotheses and architectur
 
 ---
 
+![Fig-002-Language-Coverage-vs-Structural-Sufficiency.png](../figures/Fig-002-Language-Coverage-vs-Structural-Sufficiency.png)
+
+---
+
 ## 1. Introduction
 
 ### 1.1 A Historic Breakthrough and a Fundamental Question

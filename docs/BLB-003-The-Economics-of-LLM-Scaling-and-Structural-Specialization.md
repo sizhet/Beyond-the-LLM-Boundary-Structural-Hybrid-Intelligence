@@ -17,6 +17,10 @@ Transformer-based large language models (LLMs) have delivered unusually broad ca
 
 ---
 
+![Fig-004-Scaling-vs-Structural-Specialization.png](../figures/Fig-004-Scaling-vs-Structural-Specialization.png)
+
+---
+
 ## 1. Introduction: The Next Unit of Useful Intelligence
 
 The historical achievement of large language models is not in question. General-purpose foundation models have converted immense training investments into reusable capabilities across language, software, knowledge work, and increasingly multimodal tasks. They have reduced the cost of accessing many forms of computation through a common interface.

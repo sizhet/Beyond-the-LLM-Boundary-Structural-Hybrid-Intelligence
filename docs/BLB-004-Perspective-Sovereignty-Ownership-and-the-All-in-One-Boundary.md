@@ -22,6 +22,10 @@ The paper examines trade-offs: sovereignty can increase isolation and accountabi
 
 ---
 
+![Fig-005-Perspective-Sovereignty-and-Ownership-Partition.png](../figures/Fig-005-Perspective-Sovereignty-and-Ownership-Partition.png)
+
+---
+
 ## 1. Introduction: From Shared Capability to Independent Agency
 
 LLMs can adopt many roles, answer from different viewpoints, and generate recommendations tailored to user goals. These capabilities are valuable. However, a model's ability to *describe* a stakeholder's interests is not the same as that stakeholder's ability to *control* the goals, data, and actions of an intelligent system.

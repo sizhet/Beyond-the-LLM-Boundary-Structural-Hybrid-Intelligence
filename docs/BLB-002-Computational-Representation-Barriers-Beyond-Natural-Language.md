@@ -23,6 +23,10 @@ The resulting principle is not that natural language and specialized structures 
 
 ---
 
+![Fig-003-Computational-Representation-Barriers.png](../figures/Fig-003-Computational-Representation-Barriers.png)
+
+---
+
 ## 1. Introduction: A Critical Inference to Reconsider
 
 Transformer-based LLMs have demonstrated remarkable generalization across natural-language tasks, programming, structured data, mathematical reasoning, and tool use. Their achievements establish that token-based models can learn and manipulate an exceptionally broad range of representations. They do **not** establish that a language-centered execution path is the best implementation for every operation encoded in tokens.

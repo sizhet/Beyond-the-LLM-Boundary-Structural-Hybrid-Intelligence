@@ -14,6 +14,10 @@ Large language models (LLMs) provide a powerful general-purpose interface to kno
 
 ---
 
+![Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png](../figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png)
+
+---
+
 ## 1. Problem Statement: From Universal Interface to Boundary-Aware Execution
 
 A universal conversational interface is valuable. It does not follow that every operation should be performed internally through natural-language token prediction. Graph reachability, relational queries, symbolic proof, geometric constraints, real-time control, and privacy-sensitive decision-making can require different representations, runtime guarantees, and authority boundaries.
