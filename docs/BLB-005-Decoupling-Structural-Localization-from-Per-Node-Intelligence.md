@@ -22,6 +22,10 @@ The contribution is not the claim that routing, tool use, or modular execution a
 
 ---
 
+![Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png](../figures/Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png)
+
+---
+
 ## 1. Introduction: Finding Intelligence Is Not Performing Intelligence
 
 A modern AI request often combines multiple questions:

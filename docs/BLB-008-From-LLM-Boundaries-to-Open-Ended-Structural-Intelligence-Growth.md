@@ -17,6 +17,12 @@ The boundaries of large language models (LLMs) need not be interpreted solely as
 
 ---
 
+![Fig-007 — BASHI Architecture and Open-Ended Structural Growth](../figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png)
+
+*Figure 7. Boundary-aware task execution feeds a governed structural-growth cycle; evidence, authorization, monitoring, and retirement constrain promotion.*
+
+---
+
 ## 1. Introduction: A Boundary Can Be a Growth Signal
 
 A general-purpose LLM can often describe a task without being the most reliable or economical mechanism for performing it. This distinction motivated the earlier papers in this series:
@@ -412,6 +418,12 @@ This approach is consistent with the broader SI research principle of **Specific
 
 ---
 
+![Fig-007 — BASHI Architecture and Open-Ended Structural Growth](../figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png)
+
+*Figure 7. Boundary-aware task execution feeds a governed structural-growth cycle; evidence, authorization, monitoring, and retirement constrain promotion.*
+
+---
+
 ## 10. Worked Scenarios
 
 ### 10.1 Calling-graph intelligence
@@ -711,24 +723,6 @@ The following sources provide context and comparison points; they should not be 
 14. Tan, S., & GPT-Obot. *Principle Intelligence and Open Structural Learning*. Research repository. https://github.com/sizhet/Principle-Intelligence-and-Open-Structural-Learning
 15. Tan, S., & GPT-Obot. *Metric Differential Tree, UTN, and Context-Bound Token Intelligence*. Research repository. https://github.com/sizhet/Metric-Differential-Tree-UTN-and-Context-Bound-Token-Intelligence
 16. Tan, S., & GPT-Obot. *Pre-AGI AI Action Governance*. Research repository. https://github.com/sizhet/Pre-AGI-AI-Action-Governance
-
----
-
-## 19. Figure Placement and Repository Navigation
-
-**Primary figure:** `figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png`
-
-**Recommended insertion:** immediately after **Section 9.3 — Contracts First**, where the growth lifecycle and architecture interfaces have been fully defined. The figure should illustrate the BASHI execution architecture connected to the evidence-gated OESIG growth loop, with a cross-cutting Policy Control Plane and rollback/retirement paths.
-
-Suggested Markdown insertion:
-
-```markdown
-![Fig-007 — BASHI Architecture and Open-Ended Structural Growth](../figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png)
-
-*Figure 7. Boundary-aware task execution feeds a governed structural-growth cycle; evidence, authorization, monitoring, and retirement constrain promotion.*
-```
-
-**Series navigation:** [BLB-001](BLB-001-Language-Intelligence-and-the-Limits-of-Universal-Coverage.md) · [BLB-002](BLB-002-Computational-Representation-Barriers-Beyond-Natural-Language.md) · [BLB-003](BLB-003-The-Economics-of-LLM-Scaling-and-Structural-Specialization.md) · [BLB-004](BLB-004-Perspective-Sovereignty-Ownership-and-the-All-in-One-Boundary.md) · [BLB-005](BLB-005-Decoupling-Structural-Localization-from-Per-Node-Intelligence.md) · [BLB-006](BLB-006-CCC-Native-Intelligence-and-Structural-Semantic-Units.md) · [BLB-007](BLB-007-BASHI-Boundary-Aware-Structural-Hybrid-Intelligence-Architecture.md)
 
 ---
 
