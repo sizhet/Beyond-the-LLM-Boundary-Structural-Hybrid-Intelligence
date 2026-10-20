@@ -1,184 +1,266 @@
-# Structural Intelligence Framework (SIF)
+# Beyond the LLM Boundary
 
-### An Open Architecture for Intelligence Localization, Composition, Governance, and Structural Growth
+## Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture
 
-**Sizhe Tan & GPT-Obot** · **v1.0.0** · **Apache-2.0**
+**BLB-SHI · Research Series v1.0.0 · October 2026**  
+**Authors:** Sizhe Tan & GPT-Obot  
+**Status:** Conceptual research, reference architecture, and falsifiable research agenda  
+**License:** Apache-2.0 (see [`LICENSE`](LICENSE.txt) when included in the repository)
 
-> **Structural intelligence does not merely solve problems within a worldview; through evidence-governed, open-ended structural growth, it may expand and reconstruct the worldview itself.**
-
-**SIF** is a research framework for discovering, addressing, composing, validating, governing, and evolving heterogeneous intelligence structures. It treats large language models (LLMs) as powerful foundational capabilities—not as the exclusive or final form of intelligence. The framework welcomes existing methods, future methods, and replacements, subject to explicit contracts, evidence, counter-evidence, and authorization boundaries.
-
-**Project status:** Conceptual architecture, candidate research specifications, and a falsifiable validation agenda. **This v1.0.0 release is not a validated implementation, a benchmark result, or an adopted interoperability standard.**
+> **Universal interface ≠ universal internal architecture.**  
+> Language is an extraordinarily powerful medium for intelligence, but being able to *describe* a task in language does not imply that language is the best representation for *executing*, *verifying*, *learning*, or *governing* it.
 
 ---
 
-## 1. Why SIF?
+## 1. At a Glance
 
-Individual models and tools can be highly capable yet remain isolated by incompatible interfaces, implicit assumptions, narrow evaluation, and weak mechanisms for structural learning. Adding tools alone does not resolve these problems. SIF asks a broader question:
+Large language models (LLMs) have transformed access to knowledge, reasoning, and tools. Yet an LLM's broad language competence does not establish that a single model, representation, context boundary, or learning mechanism is optimal across every computational task.
 
-**How can intelligence capabilities become discoverable, composable, challengeable, portable, and capable of evidence-governed structural evolution?**
+**Beyond the LLM Boundary (BLB-SHI)** investigates a complementary direction: **Boundary-Aware Structural Hybrid Intelligence (BASHI)**. Rather than replacing LLMs, BASHI proposes to use them where their strengths matter, while localizing tasks to appropriate structures and authorized execution mechanisms—including formal languages, graphs, solvers, tools, specialized models, and sovereign intelligence units.
 
-SIF draws a distinction between **improving a solution inside a known structure** and **improving the structure through which problems and solutions are represented**. Its architecture is open-ended in the sense that its inventory of intelligence structures is not assumed complete; this is a design principle, not a claim of unlimited growth.
+The research program connects eight themes:
 
-## 2. The Four Functional Domains
+1. **Language coverage:** what natural language makes accessible, and what it does not make computationally optimal.
+2. **Representation barriers:** the cost and risk of translating between language, code, mathematics, graphs, geometry, and control systems.
+3. **Scaling economics:** when a larger general model is preferable to structural specialization, and when hybridization pays for itself.
+4. **Perspective sovereignty:** the difference between simulating a perspective and respecting an independent actor's goals, context, authority, and ownership.
+5. **Localization–execution decoupling:** finding the right structure or node before deciding how to compute.
+6. **CCC-native intelligence:** making structured semantic units addressable, composable, verifiable, and governable.
+7. **BASHI architecture:** integrating boundary diagnosis, localization, execution, verification, policy, and controlled growth.
+8. **Open-ended structural growth:** extending intelligence through evidence-gated, reversible, and potentially collective structural learning.
 
-These are **functional roles**, not mutually exclusive software layers. One structure—such as an LLM, a world model, or a scoring system—may contribute to several domains.
+**Research stance:** These are architectural hypotheses and design proposals, **not** claims that BASHI has been implemented, benchmarked, or demonstrated superior to strong LLM-with-tools baselines.
 
-| Domain | Core question | Representative mechanisms |
-|---|---|---|
-| **I. Localization and Intelligence Addressing** | Where is the relevant problem, context, capability, or execution path? | LLMs, Metric-Space CCC, MDT, Two-Phase Search, CallingGraph, Core + Delta, relay networks, UTN, world models |
-| **II. Per-Node Intelligence** | What intelligence can a node perform? | LLMs, rules, Two-Way CCC, ANN, optimization, simulation, mathematical programming, specialized applications and APIs |
-| **III. Universal Control Planes and Scoring/Folding** | How are alternatives assessed, controlled, audited, and authorized? | Policy/authority, scoring trees and forests, evidence/audit, structural folding and unfolding |
-| **IV. Residual-Based Structural Growth** | What is missing, failing, uncertain, or newly possible—and how should the architecture change? | Residual diagnosis, precedent adaptation, adversarial validation, new PIRP/PIRU units, collective learning |
+---
 
-**Important separation:** capability matching is not validation; validation is not authorization. Governance applies across all four domains.
+![Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png](figures/Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png)
 
-![Four Functional Domains](figures/Fig-002-Four-Functional-Domains.png)
+---
 
-## 3. From Isolated Tools to Structural Intelligence
+## 2. The Central Thesis
 
-SIF organizes intelligence through **three complementary engineering systems**:
+Four distinct questions should not be collapsed into one:
 
-1. **Structural Intelligence Registry** — what capabilities and precedents exist, with their versions, applicability conditions, supporting evidence, and counter-evidence.
-2. **Structural Intelligence Runtime** — how capabilities are addressed, matched, composed, relayed, and executed under explicit policies.
-3. **Structural Intelligence Evolution Laboratory** — how new structural candidates are proposed, challenged, compared, revised, and qualified before possible deployment.
+| Dimension | Core question |
+| --- | --- |
+| **Intelligence coverage** | Can the system understand or describe the task? |
+| **Representation sufficiency** | Does it possess the structures needed to express and manipulate the task faithfully? |
+| **Computational optimality** | Is its chosen execution route effective under quality, latency, and cost constraints? |
+| **Governance adequacy** | Is it authorized to access the context, take the action, and update the structure? |
 
-These systems are connected by shared identities, types, contracts, traceable evidence, and governance boundaries.
+An LLM may answer the first question well without automatically satisfying the other three.
 
-![SIF Grand Architecture](figures/Fig-001-SIF-Grand-Architecture.png)
+### Six boundary dimensions
 
-## 4. Problem–Capability Dual Maps
+BLB-SHI examines task-dependent boundaries in:
 
-SIF distinguishes two complementary views:
+**Representation · Computation · Learning · Perspective · Ownership · Governance**
 
-- **Structural Problem-Solving Map (PSM):** the tasks, goals, constraints, context, dependencies, and success criteria a problem requires; analogous to a *Task CallingGraph*.
-- **Structural Capability Map (SCM):** available capabilities, their interfaces, composition relationships, applicability conditions, and evidence; analogous to an *Action CallingGraph*.
+These are not categorical limits shared by all LLM systems. Their severity depends on the task, model, tools, interfaces, policies, and available alternatives. Some barriers can be mitigated by better prompting or tool use; others motivate distinct computational structures or ownership partitions.
 
-**Bidirectional Structural Intelligence Mapping (BSIM)** connects them. Problems can lead to relevant capabilities, while newly discovered capabilities can reveal previously unrecognized applications or questions. A failed mapping becomes a candidate **structural residual**, not an automatic proof that a new intelligence has been invented.
+---
 
-![Problem–Capability Dual Maps](figures/Fig-003-Problem-Capability-Dual-Maps.png)
+## 3. BASHI: The Proposed Architecture
 
-## 5. Structural Precedent Intelligence
+```text
+                 Real-World Tasks, Goals, Contexts
+                               |
+                    Task & Boundary Analysis
+                               |
+                 Structural Localization Layer
+                   (MDT / CCC / UTN / graphs)
+                               |
+                    Hybrid Execution Layer
+             (LLMs / specialists / tools / solvers)
+                               |
+                    Verification & Evidence
+                               |
+                Structural Growth & Learning
+                    (candidate -> test -> review)
+                               |
+                  Governed Structural Updates
 
-Inspired by the logic of legal precedents, **Structural Precedent Intelligence (SPI)** treats prior structural solutions as conditional, challengeable claims—not universally reusable answers. The **Structural Precedent Registry (SPR)** records capability definitions, precedent cases, evidence, counter-evidence, and lineage.
+   POLICY CONTROL PLANE: authorization, ownership,
+   safety, audit, and update controls across all layers
+```
 
-A precedent must be checked against the new task's context, assumptions, constraints, and risk. Retrieval, adaptation, validation, and authorization remain distinct operations.
+---
 
-![Structural Precedent Intelligence](figures/Fig-005-Structural-Precedent-Intelligence.png)
+![Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png](figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png)
 
-## 6. Universal Contracts, Naming, Typing, and Relay
+---
 
-SIF proposes a **Structural Intelligence Contract (SIC)** to describe identity, type, capabilities, signatures, context assumptions, relay interfaces, evidence, policy, lifecycle, and growth hooks. **Universal Naming, Typing and Relay (UNT-R)** provides candidate conventions for addressing and connecting heterogeneous intelligence units.
+### Localization–Execution Decoupling
 
-The baseline relay operations proposed for research are `describe`, `match`, `invoke`, `status`, `result`, and `cancel`. Additional operations may support delegation, handoff, evaluation, counter-evidence, and growth proposals.
+**Localization** asks: *Which context, structure, capability, node, or owner is relevant?*  
+**Execution** asks: *Which authorized computational mechanism should operate there?*
 
-**Standardize the contract, not the intelligence.** Flexible **Portable Intelligence Runtime Pieces (PIRP)** may mature into more formal **Portable Intelligence Runtime Units (PIRU)** without requiring uniform internal algorithms.
+This separation enables routing among LLMs, Calling Graphs, formal solvers, specialized models, external tools, and structural semantic units without assuming one universal execution substrate.
 
-![Universal Contracts and Relay](figures/Fig-004-Universal-Contracts-and-Relay.png)
+---
 
-## 7. Challenge the Structure, Not Just the Answer
+![Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png](figures/Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png)
 
-The proposed **Multi-Intelligence Adversarial Sandbox (MIAS)** separates roles such as Builder, Challenger, Independent Evaluator, World/Simulation Engine, Formal Checker, and Policy Authority. It tests both candidate performance and structural assumptions: applicability, representation, composition, evaluator reliability, costs, and failure modes.
+---
 
-**Structural Counter-Evidence (SCE)** is a first-class research artifact. An evaluator can itself be challenged, within bounded resources and risk controls, to mitigate Goodhart-style metric gaming.
+### CCC-native structural semantics
 
-Three boundaries must not be conflated:
+**CCC (Context–Concept–Constraint)** structures are investigated as reusable semantic units carrying explicit context, constraints, relationships, evidence, policy, and versioning. The series distinguishes three proposed integration levels: reference/addressing, embedding-conditioned access, and native structural operations. These are **research stages**, not established performance results.
 
-- **Exploratory sandbox:** generate and challenge candidates within isolated limits.
-- **Validated shadow runtime:** observe behavior without granting production authority.
-- **Authorized production runtime:** execute only within separately approved permissions and monitoring requirements.
+### Policy is not merely a score
 
-![Multi-Intelligence Adversarial Sandbox](figures/Fig-006-Multi-Intelligence-Adversarial-Sandbox.png)
+Permission and ownership constraints are **hard feasibility conditions**. A route that is cheap or high-scoring but unauthorized must not be selected. Structural learning similarly requires evidence, review, promotion rules, and rollback paths.
 
-## 8. Open-Ended Growth and the Perception Horizon
+## 4. Read the Eight Research Papers
 
-SIF studies growth across **large structures, deep structural granularity, precision guidance, and computational investment**, together with interoperability, evidence, governance, and collective learning. Higher-order compositions may become **Macro-Intelligence Pieces**—systems reusable as nodes in larger systems—if their contracts and boundaries remain intelligible and testable.
+| Paper | Topic | Recommended role |
+| --- | --- | --- |
+| [**BLB-001**](docs/BLB-001-Language-Intelligence-and-the-Limits-of-Universal-Coverage.md) | Language Intelligence and the Limits of Universal Coverage | Foundational thesis and scope |
+| [**BLB-002**](docs/BLB-002-Computational-Representation-Barriers-Beyond-Natural-Language.md) | Computational Representation Barriers Beyond Natural Language | Representation and translation framework |
+| [**BLB-003**](docs/BLB-003-The-Economics-of-LLM-Scaling-and-Structural-Specialization.md) | The Economics of LLM Scaling and Structural Specialization | Comparative economics and break-even logic |
+| [**BLB-004**](docs/BLB-004-Perspective-Sovereignty-Ownership-and-the-All-in-One-Boundary.md) | Perspective Sovereignty, Ownership, and the All-in-One Boundary | Multi-actor goals, authority, and privacy |
+| [**BLB-005**](docs/BLB-005-Decoupling-Structural-Localization-from-Per-Node-Intelligence.md) | Decoupling Structural Localization from Per-Node Intelligence | Architectural decomposition and node contracts |
+| [**BLB-006**](docs/BLB-006-CCC-Native-Intelligence-and-Structural-Semantic-Units.md) | CCC-Native Intelligence and Structural Semantic Units | Structural semantic interfaces |
+| [**BLB-007**](docs/BLB-007-BASHI-Boundary-Aware-Structural-Hybrid-Intelligence-Architecture.md) | BASHI: Boundary-Aware Structural Hybrid Intelligence Architecture | Canonical integrated architecture |
+| [**BLB-008**](docs/BLB-008-From-LLM-Boundaries-to-Open-Ended-Structural-Intelligence-Growth.md) | From LLM Boundaries to Open-Ended Structural Intelligence Growth | Growth, governance, and collective learning |
+
+**New to the series?** Read **BLB-001 → BLB-002 → BLB-007 → BLB-008** for the shortest conceptual path. Read **BLB-003 through BLB-006** for the economic, sovereignty, and interface foundations of the architecture.
+
+For a guided path and complete navigation, see [`START-HERE.md`](START-HERE.md) and [`CONTENTS.md`](CONTENTS.md) when available.
+
+---
+
+## 5. Figures and Visual Navigation
+
+The figure set is designed to connect the eight papers into a single visual argument:
+
+| Figure | Title | Main connection |
+| --- | --- | --- |
+| [Fig-001](figures/Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png) | Beyond the LLM Boundary — Grand Map | Whole-series overview |
+| [Fig-002](figures/Fig-002-Language-Coverage-vs-Structural-Sufficiency.png) | Language Coverage vs. Structural Sufficiency | BLB-001 |
+| [Fig-003](figures/Fig-003-Computational-Representation-Barriers.png) | Computational Representation Barriers | BLB-002 |
+| [Fig-004](figures/Fig-004-Scaling-vs-Structural-Specialization.png) | Scaling vs. Structural Specialization | BLB-003 |
+| [Fig-005](figures/Fig-005-Perspective-Sovereignty-and-Ownership-Partition.png) | Perspective Sovereignty and Ownership Partition | BLB-004 |
+| [Fig-006](figures/Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png) | Localization–Execution Decoupling and CCC-Native Intelligence | BLB-005 and BLB-006 |
+| [Fig-007](figures/Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png) | BASHI Architecture and Open-Ended Structural Growth | BLB-007 and BLB-008 |
 
-The **Structural Perception Horizon** describes what a system can currently distinguish, represent, connect, and evaluate. The frontier hypothesis is that structural growth may expand that horizon and, in some cases, reorganize a system's **worldview** (its conceptual perspectives), rather than merely improving performance within an unchanged **world model**.
+**Figure integration note:** The paths above are the intended repository filenames. Ensure the seven individual PNG files have been exported into `figures/` before publishing the links. The conceptual diagrams are illustrative; plotted relationships are not empirical measurements unless explicitly stated.
 
-**Perspective-relative ASI** is treated as conditional on domain, task, evidence, metrics, resources, time horizon, and governance—not as an automatic universal status.
+See [`FIGURE-INDEX.md`](FIGURE-INDEX.md) for placement and caption guidance when available.
 
-![Structural Growth and Evolution Loop](figures/Fig-007-Structural-Growth-and-Evolution-Loop.png)
+---
 
-![Perception Horizon and Worldview Growth](figures/Fig-008-Perception-Horizon-and-Worldview-Growth.png)
+## 6. Research Questions and Falsifiability
 
-## 9. Read the Research
+BLB-SHI is intended to be tested against competitive alternatives, not merely argued for conceptually.
 
-**New readers:** begin with [START-HERE.md](START-HERE.md), then consult the full [CONTENTS.md](CONTENTS.md) and [GLOSSARY.md](GLOSSARY.md).
+**Primary questions:**
 
-### Foundations
+- When does structural representation materially improve fidelity, latency, cost, or auditability compared with a strong LLM or LLM-with-tools system?
+- When does localization overhead erase the benefit of specialized execution?
+- Which task classes justify CCC-native operations rather than ordinary retrieval, function calls, or serialization?
+- Can independent perspective and ownership boundaries be enforced while still sharing useful intelligence capabilities?
+- When does controlled structural growth improve long-horizon performance without unacceptable structural debt, drift, or governance cost?
 
-- [SIF-001 — From Isolated Intelligence to Open Structural Intelligence](docs/foundations/SIF-001-From-Isolated-Intelligence-to-Open-Structural-Intelligence.md)
-- [SIF-002 — Four Functional Domains of Structural Intelligence](docs/foundations/SIF-002-Four-Functional-Domains-of-Structural-Intelligence.md)
-- [SIF-003 — Structural Precedents and Open Intelligence Evolution](docs/foundations/SIF-003-Structural-Precedents-and-Open-Intelligence-Evolution.md)
+**Minimum comparative baselines:**
 
-### Functional Domains
+1. A strong general-purpose LLM with appropriate prompting and context.
+2. The same or comparable LLM with well-engineered retrieval and tool use.
+3. Conventional specialized or hybrid pipelines appropriate to the task.
+4. BASHI-style localization and hybrid routing under matched evaluation conditions.
 
-- [SIF-004 — Localization and Intelligence Addressing](docs/functional-domains/SIF-004-Localization-and-Intelligence-Addressing.md)
-- [SIF-005 — Per-Node Intelligence and Multi-Perspective Capabilities](docs/functional-domains/SIF-005-Per-Node-Intelligence-and-Multi-Perspective-Capabilities.md)
-- [SIF-006 — Universal Control Planes and Scoring Folding](docs/functional-domains/SIF-006-Universal-Control-Planes-and-Scoring-Folding.md)
-- [SIF-007 — Residual-Based Structural Growth](docs/functional-domains/SIF-007-Residual-Based-Structural-Growth.md)
+Measure task success, error severity, calibration, latency, total cost, verification burden, authorization compliance, and maintenance cost. Report negative results and counter-evidence. Any claimed gains must account for routing, integration, migration, and governance overhead—not just inference cost.
 
-### Interoperability
+**No benchmark results or production implementation are asserted in this v1.0.0 research release.**
 
-- [SIF-008 — Dual Maps and Bidirectional Structural Mapping](docs/interoperability/SIF-008-Dual-Maps-and-Bidirectional-Structural-Mapping.md)
-- [SIF-009 — Structural Precedent Registry](docs/interoperability/SIF-009-Structural-Precedent-Registry.md)
-- [SIF-010 — Universal Naming, Typing and Relay](docs/interoperability/SIF-010-Universal-Naming-Typing-and-Relay.md)
-- [SIF-011 — Structural Intelligence Contracts and Portable Units](docs/interoperability/SIF-011-Structural-Intelligence-Contracts-and-Portable-Units.md)
+---
 
-### Validation and Evolution
+## 7. Relationship to Structural Intelligence Research
 
-- [SIF-012 — Multi-Intelligence Adversarial Sandbox](docs/validation-and-evolution/SIF-012-Multi-Intelligence-Adversarial-Sandbox.md)
-- [SIF-013 — Structural Counter-Evidence and Evaluator Governance](docs/validation-and-evolution/SIF-013-Structural-Counter-Evidence-and-Evaluator-Governance.md)
-- [SIF-014 — Open-Ended Structural Growth and Collective Learning](docs/validation-and-evolution/SIF-014-Open-Ended-Structural-Growth-and-Collective-Learning.md)
+BLB-SHI builds upon and extends a broader Structural Intelligence (SI) research program. Relevant companion repositories include:
 
-### Frontiers
+- [Metric Differential Tree, UTN, and Context-Bound Token Intelligence](https://github.com/sizhet/Metric-Differential-Tree-UTN-and-Context-Bound-Token-Intelligence) — structural localization and context-addressable intelligence.
+- [Portable Intelligence Runtime Pieces and Units](https://github.com/sizhet/Portable-Intelligence-Runtime-Pieces-and-Units) — portable intelligence structures and relay mechanisms.
+- [Principle Intelligence and Open Structural Learning](https://github.com/sizhet/Principle-Intelligence-and-Open-Structural-Learning) — principle extraction and structural learning.
+- [Structural Recursive Self-Improvement](https://github.com/sizhet/Structural-Recursive-Self-Improvement) — evidence-aware evaluators and governed improvement.
+- [Pre-AGI AI Action Governance](https://github.com/sizhet/Pre-AGI-AI-Action-Governance) — constraints on actions and authority.
 
-- [SIF-015 — Structural Perception Horizon and Worldview Growth](docs/frontiers/SIF-015-Structural-Perception-Horizon-and-Worldview-Growth.md)
-- [SIF-016 — Macro-Intelligence Pieces and Higher-Order Structures](docs/frontiers/SIF-016-Macro-Intelligence-Pieces-and-Higher-Order-Structures.md)
-- [SIF-017 — Scaling Axes and Computational Intelligence Growth](docs/frontiers/SIF-017-Scaling-Axes-and-Computational-Intelligence-Growth.md)
-- [SIF-018 — Perspective ASI and the Open Future of Intelligence](docs/frontiers/SIF-018-Perspective-ASI-and-the-Open-Future-of-Intelligence.md)
+These links provide research context; they do not constitute empirical validation of BASHI.
 
-### Candidate Research Specifications
+---
 
-These are **proposals for experimentation**, not ratified standards.
+## 8. Repository Layout
 
-- [SPEC-001 — SIF Structural Intelligence Contract](specifications/SPEC-001-SIF-Structural-Intelligence-Contract.md)
-- [SPEC-002 — Universal Name, Type and Relay API](specifications/SPEC-002-Universal-Name-Type-and-Relay-API.md)
-- [SPEC-003 — Structural Precedent Registry Schema](specifications/SPEC-003-Structural-Precedent-Registry-Schema.md)
-- [SPEC-004 — Sandbox Evidence and Growth Lifecycle](specifications/SPEC-004-Sandbox-Evidence-and-Growth-Lifecycle.md)
+```text
+Beyond-the-LLM-Boundary-Structural-Hybrid-Intelligence/
+├── README.md
+├── START-HERE.md
+├── CONTENTS.md
+├── GLOSSARY.md
+├── FIGURE-INDEX.md
+├── FUTURE-DIRECTIONS.md
+├── CHANGELOG.md
+├── CITATION.cff
+├── .zenodo.json
+├── LICENSE.txt
+├── docs/
+│   ├── BLB-001-Language-Intelligence-and-the-Limits-of-Universal-Coverage.md
+│   ├── BLB-002-Computational-Representation-Barriers-Beyond-Natural-Language.md
+│   ├── BLB-003-The-Economics-of-LLM-Scaling-and-Structural-Specialization.md
+│   ├── BLB-004-Perspective-Sovereignty-Ownership-and-the-All-in-One-Boundary.md
+│   ├── BLB-005-Decoupling-Structural-Localization-from-Per-Node-Intelligence.md
+│   ├── BLB-006-CCC-Native-Intelligence-and-Structural-Semantic-Units.md
+│   ├── BLB-007-BASHI-Boundary-Aware-Structural-Hybrid-Intelligence-Architecture.md
+│   └── BLB-008-From-LLM-Boundaries-to-Open-Ended-Structural-Intelligence-Growth.md
+├── figures/
+│   ├── Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png
+│   ├── Fig-002-Language-Coverage-vs-Structural-Sufficiency.png
+│   ├── Fig-003-Computational-Representation-Barriers.png
+│   ├── Fig-004-Scaling-vs-Structural-Specialization.png
+│   ├── Fig-005-Perspective-Sovereignty-and-Ownership-Partition.png
+│   ├── Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png
+│   └── Fig-007-BASHI-Architecture-and-Open-Ended-Structural-Growth.png
+└── release/
+    ├── GitHub-Release-Notes-v1.0.0.md
+    ├── ResearchGate-Description.txt
+    └── BLB-SHI-v1.0.0-ResearchGate-Overview.pdf
+```
 
-### Research Program
+This tree is the **planned v1.0.0 publication layout**, not an assertion that every file has already been committed.
 
-- [Open Questions](research/OPEN-QUESTIONS.md)
-- [Testable Hypotheses](research/TESTABLE-HYPOTHESES.md)
-- [Validation Roadmap](research/VALIDATION-ROADMAP.md)
-- [Future Directions](FUTURE-DIRECTIONS.md)
-- [Figure Index](FIGURE-INDEX.md)
+---
 
-## 10. Relationship to the Structural Intelligence Research Program
+## 9. Scope, Limits, and Publication Principles
 
-SIF is intended as an **integrating architectural framework**, not a replacement for the specialized research repositories on Metric Differential Trees and UTN/CBT, CallingGraph unfolding, structural folding, Principle Intelligence, portable intelligence units, structural recursive self-improvement, generalized triggers, universal control planes, or intelligence beyond LLM boundaries. Their specific hypotheses and mechanisms retain their own scope and should be evaluated on their own evidence.
+- **Research-first release:** v1.0.0 emphasizes concepts, interfaces, architecture, and testable hypotheses; no code demo is required for its initial theoretical scope.
+- **LLM-complementary, not anti-LLM:** the aim is to identify comparative advantages and viable combinations, not to declare a universal replacement.
+- **No invented quantitative certainty:** illustrative coverage percentages, cost curves, and architectural performance projections are not measured findings.
+- **No unqualified novelty claim:** related areas include mixture-of-experts, retrieval-augmented generation, tool-using agents, neurosymbolic systems, workflow orchestration, federated architectures, and formal verification. BASHI should be evaluated in relation to these precedents.
+- **Governed growth:** capability extension, data ownership, policy authorization, audit, and rollback are first-class research concerns.
 
-For related public work, see the [Sizhe Tan GitHub profile](https://github.com/sizhet) and the references discussed within the SIF manuscripts. Cross-repository compatibility is a research goal, not an established interoperability result.
+See [`FUTURE-DIRECTIONS.md`](FUTURE-DIRECTIONS.md) for a proposed validation roadmap when available.
 
-## 11. Research Commitments and Limits
+---
 
-SIF is committed to **falsifiability, reproducibility, provenance, counter-evidence, bounded experimentation, and explicit human or institutionally delegated authority**. Its research program should be able to show when a proposed structural mechanism is ineffective, unnecessary, unsafe, or inferior to simpler baselines.
+## 10. Citation and License
 
-At v1.0.0, the repository provides **18 research manuscripts, 4 candidate specifications, 3 research planning documents, and an 8-figure architecture plan**. It does **not** claim demonstrated ASI, proven open-ended self-improvement, universal semantic interoperability, or experimentally verified worldview reconstruction.
+**Suggested citation (until a DOI is assigned):**
 
-## 12. Citation, License, and Release
+> Tan, Sizhe, and GPT-Obot. (2026). *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture (BLB-SHI)*. Version 1.0.0. Research repository.
 
-**Authors:** Sizhe Tan & GPT-Obot  
-**Project:** *Structural Intelligence Framework (SIF): An Open Architecture for Intelligence Localization, Composition, Governance, and Structural Growth*  
-**Release:** v1.0.0  
-**Repository:** https://github.com/sizhet/Structural-Intelligence-Framework  
-**License:** [Apache License 2.0](LICENSE.txt)  
-**Citation metadata:** [CITATION.cff](CITATION.cff)  
-**Change history:** [CHANGELOG.md](CHANGELOG.md)
+For machine-readable metadata, use [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json) when published. **Do not insert a placeholder DOI as if it were registered.**
 
-A DOI may be added to the citation metadata after a verified archival release; none is asserted here.
+The intended repository license is **Apache-2.0**; the actual terms are governed by the published [`LICENSE`](LICENSE.txt) file.
+
+---
+
+## 11. Closing Perspective
+
+The future of AI need not be a contest between one ever-larger general model and a collection of disconnected specialists. A more productive research question is how **general intelligence interfaces, specialized computational representations, independent perspectives, and verifiable governance** can be combined into an adaptable system.
+
+**Scale where generalization pays. Specialize where structure pays. Coordinate where the combination pays. Govern where consequences matter.**
+
+*BLB-SHI v1.0.0 — Sizhe Tan & GPT-Obot — October 2026*
 
 ---
 
@@ -194,6 +276,3 @@ See:\
 [./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md](./docs/DBM-SI-Series-of-gitHub-Repositories/DBM-SI-Series-of-gitHub-Repositories.md)
 
 ---
-
-**Open intelligence requires open discovery, rigorous counter-evidence, interoperable contracts, and deliberate governance.**
-
