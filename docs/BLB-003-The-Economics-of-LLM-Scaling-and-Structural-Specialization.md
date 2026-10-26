@@ -98,9 +98,9 @@ For task family \(i\), let:
 
 An illustrative expected net value is
 
-\[
+$$
 NV(a)=\sum_i n_i\bigl[v_i q_i(a)-c_i(a)\bigr]-F(a)-M(a).
-\]
+$$
 
 This simplified expression assumes failures are captured adequately by the quality term. High-stakes applications should explicitly add expected loss from errors, including tail risks, rather than compressing all consequences into \(q_i\).
 
@@ -108,9 +108,9 @@ This simplified expression assumes failures are captured adequately by the quali
 
 The relevant cost is **total cost of ownership**, not only inference cost:
 
-\[
+$$
 TCO(a)=C_{train}+C_{adapt}+C_{integrate}+C_{infer}+C_{verify}+C_{operate}+C_{govern}+C_{migrate}.
-\]
+$$
 
 Not every term applies to every architecture. For a third-party API, training cost may be embedded in pricing; for a self-hosted model, hardware depreciation and engineering time become explicit. Comparisons must avoid double-counting.
 
@@ -118,9 +118,9 @@ Not every term applies to every architecture. For a third-party API, training co
 
 For a change from architecture \(a_0\) to \(a_1\), define a workload-specific measure:
 
-\[
+$$
 MIE(a_0\!\to\!a_1)=\frac{\Delta U}{\Delta TCO},\qquad \Delta TCO>0,
-\]
+$$
 
 where \(\Delta U\) is the change in *qualified task utility* over the same workload and time horizon. If costs fall while utility is maintained, compare cost savings directly rather than forcing the ratio to describe that case.
 
@@ -147,9 +147,9 @@ A specialist may have high fixed cost and low variable cost. If the task occurs 
 
 Let \(F_s\) be incremental fixed cost of specialization, and let \(\Delta c\) be per-task cost saving at matched acceptance quality. A simplified break-even volume is:
 
-\[
+$$
 N^*=\frac{F_s}{\Delta c},\qquad \Delta c>0.
-\]
+$$
 
 **Illustrative example, not empirical evidence:** If specialization costs $40,000 to implement and saves $0.20 per qualified task, break-even occurs at 200,000 tasks, excluding discounting, maintenance changes, and risk differences.
 
@@ -161,9 +161,9 @@ Following BLB-002, let \(b_i(a)\) denote the measured overhead attributable to r
 
 A task's effective execution cost can be decomposed as:
 
-\[
+$$
 c_i(a)=c_{native,i}(a)+c_{translation,i}(a)+c_{coordination,i}(a)+c_{verification,i}(a).
-\]
+$$
 
 This is an accounting decomposition, not a proof that every term can be isolated uniquely. In practice, researchers should specify measurement methods and avoid attributing all LLM overhead to representation mismatch.
 
@@ -181,16 +181,16 @@ Let \(\mathcal{A}\) denote candidate architectures, including scaled general-pur
 
 A system designer may solve:
 
-\[
+$$
 a^*=\arg\min_{a\in\mathcal{A}} TCO(a;D)
-\]
+$$
 
 subject to:
 
-\[
+$$
 Q_i(a)\geq q_i^{min},\quad L_i(a)\leq \ell_i^{max},\quad
 R_i(a)\leq r_i^{max},\quad a\in\mathcal{A}_{authorized}.
-\]
+$$
 
 Here \(Q_i\) is qualified task performance, \(L_i\) latency, \(R_i\) defined risk, and \(\mathcal{A}_{authorized}\) the set of architectures permitted by ownership and policy constraints.
 
@@ -200,10 +200,10 @@ Here \(Q_i\) is qualified task performance, \(L_i\) latency, \(R_i\) defined ris
 
 At runtime, a router may choose a candidate execution plan \(r\) based on task structure, model capabilities, quality forecasts, and policy constraints:
 
-\[
+$$
 r^*=\arg\max_{r\in\mathcal{R}_{allowed}(T)}
 \bigl[\widehat{Q}(r,T)-\lambda\widehat{C}(r,T)-\mu\widehat{R}(r,T)-\nu\widehat{V}(r,T)\bigr].
-\]
+$$
 
 The estimated quantities require calibration and monitoring. The weights reflect a specific operating context, not universal constants. Hard constraints should remain hard constraints.
 

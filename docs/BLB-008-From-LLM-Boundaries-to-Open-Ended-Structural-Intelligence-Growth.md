@@ -63,9 +63,9 @@ This paper presents an architectural research program, not empirical proof that 
 
 A conventional deployment is often modeled as a relatively stable function:
 
-\[
+$$
  y = F_{\theta}(x,c),
-\]
+$$
 
 where \(x\) is the task, \(c\) the supplied context, and \(\theta\) the deployed model parameters. External tools and retrieval can augment this function, but their integration may still be managed as a fixed set of components.
 
@@ -73,9 +73,9 @@ where \(x\) is the task, \(c\) the supplied context, and \(\theta\) the deployed
 
 We instead model the deployed intelligence system at time \(t\) as:
 
-\[
+$$
  \mathcal{S}_t = (N_t,E_t,R_t,C_t,P_t,O_t,V_t),
-\]
+$$
 
 where:
 
@@ -89,9 +89,9 @@ where:
 
 A proposed structural delta \(\Delta_t\) produces a candidate:
 
-\[
- \mathcal{S}_{t+1}^{\mathrm{candidate}} = \operatorname{Apply}(\mathcal{S}_t,\Delta_t).
-\]
+$$
+ \mathcal{S}_{t+1}^{\mathrm{candidate}} = operatorname{Apply}(\mathcal{S}_t,\Delta_t).
+$$
 
 The candidate becomes an authorized deployed system **only after** passing the applicable evaluation and promotion gates. The notation does not imply automatic self-authorization.
 
@@ -118,9 +118,9 @@ Growth can also consist of **removing** an obsolete branch, merging redundant un
 
 Following BLB-007, a task–system interaction can be characterized by a six-axis boundary profile:
 
-\[
+$$
  \mathbf{b}(T,\mathcal{S}) = (b_R,b_C,b_L,b_P,b_O,b_G),
-\]
+$$
 
 representing **representation**, **computation**, **learning**, **perspective**, **ownership**, and **governance** limitations. The components are diagnostic scores or structured assessments, not assumed to be calibrated or mutually independent.
 
@@ -175,11 +175,11 @@ Thus the growth space is better described as a partially ordered, multi-dimensio
 
 Let \(\mathcal{D}\) be a family of admissible structural-delta operators:
 
-\[
- \mathcal{D}=\{\operatorname{Add},\operatorname{Replace},\operatorname{Split},
- \operatorname{Merge},\operatorname{Refine},\operatorname{Restrict},
- \operatorname{Retire},\operatorname{Delegate}\}.
-\]
+$$
+ \mathcal{D}=\{operatorname{Add},operatorname{Replace},operatorname{Split},
+ operatorname{Merge},operatorname{Refine},operatorname{Restrict},
+ operatorname{Retire},operatorname{Delegate}\}.
+$$
 
 Examples include splitting a general node into domain-specific routes, replacing a prose-only computation with an SQL query, refining a CCC's applicability conditions, or delegating a task to an independently owned unit.
 
@@ -199,9 +199,9 @@ BLB-003 argued that structural specialization must compete against improved gene
 
 For candidate delta \(\Delta\), define a research objective:
 
-\[
+$$
  \begin{aligned}
- \operatorname{ENV}(\Delta) ={}& \mathbb{E}_{T\sim D}
+ operatorname{ENV}(\Delta) ={}& \mathbb{E}_{T\sim D}
  [U(T,\mathcal{S}\oplus\Delta)-U(T,\mathcal{S})]\\
  &-C_{\mathrm{integration}}(\Delta)
  -C_{\mathrm{maintenance}}(\Delta)\\
@@ -209,7 +209,7 @@ For candidate delta \(\Delta\), define a research objective:
  -C_{\mathrm{governance}}(\Delta)
  -C_{\mathrm{complexity}}(\Delta).
  \end{aligned}
-\]
+$$
 
 Here \(D\) is an explicitly stated workload distribution, and \(U\) may combine task quality, latency, compute expenditure, reliability, and other stakeholder-defined outcomes. These quantities need not share a natural unit; empirical studies must state their normalization and weighting.
 
@@ -219,9 +219,9 @@ A candidate is **eligible for consideration** only if it meets all hard policy a
 
 Suppose a new structural route incurs fixed lifecycle cost \(F\), reduces per-task cost by \(s\), and is expected to serve \(n\) comparable tasks. Ignoring discounting and uncertainty, a necessary economic condition is:
 
-\[
+$$
  ns > F.
-\]
+$$
 
 This simplified threshold becomes less favorable when routing errors, distribution shift, verification overhead, and coordination costs are included. Conversely, improvements in reliability or governance may justify a route even without lower compute cost, provided their value is explicitly measured.
 
@@ -241,13 +241,13 @@ A Metric Differential Tree (MDT) can represent distinctions that guide structura
 
 A CCC may encode a reusable concept with explicit context, constraints, evidence, policy, and version. Its lifecycle is not simply *extract and store*. A defensible lifecycle is:
 
-\[
+$$
  \text{Candidate CCC}
  \rightarrow \text{Context validation}
  \rightarrow \text{Counter-evidence testing}
  \rightarrow \text{Authorized promotion}
  \rightarrow \text{Monitoring / revision}.
-\]
+$$
 
 Two-Way CCC mechanisms should preserve the distinction between supporting evidence and disconfirming evidence. A rule that succeeds on a narrow dataset should not be promoted as universal without applicability constraints.
 
@@ -316,9 +316,9 @@ A system that can propose a new action route must not automatically gain permiss
 
 **Policy is not simply another soft optimization penalty.** Authorization is a feasibility constraint:
 
-\[
+$$
  \Delta \in \mathcal{A}_{\mathrm{authorized}}(owner,scope,time,policy).
-\]
+$$
 
 The authorized set can change only through a legitimate governance process.
 
@@ -664,7 +664,7 @@ The eight papers form a progression from boundary recognition to governed struct
 
 The resulting conceptual loop is:
 
-\[
+$$
  \boxed{\text{Observe boundary}}
  \rightarrow \boxed{\text{Localize cause}}
  \rightarrow \boxed{\text{Propose structural delta}}
@@ -672,7 +672,7 @@ The resulting conceptual loop is:
  \rightarrow \boxed{\text{Authorize}}
  \rightarrow \boxed{\text{Deploy + monitor}}
  \rightarrow \boxed{\text{Revise / retire}}.
-\]
+$$
 
 The Policy Control Plane spans every stage. At no point does improved predictive capability automatically confer expanded decision authority.
 

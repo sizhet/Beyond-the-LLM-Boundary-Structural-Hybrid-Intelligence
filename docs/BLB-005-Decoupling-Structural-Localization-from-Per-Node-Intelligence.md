@@ -241,17 +241,17 @@ Following the broader SI program's *Specifications/Contracts First* principle, t
 
 Let \(\mathcal{R}(T)\) denote the candidate execution plans for task \(T\), including a direct-LLM baseline and hybrid plans. Define the authorized subset:
 
-\[
-\mathcal{R}_{\mathrm{allowed}}(T,P)
-=\{r\in\mathcal{R}(T):\operatorname{PolicyValid}(r,P)=1\}.
-\]
+$$
+\mathcal{R}_{\mathrm{allowed}}(T,P)=
+\{r\in\mathcal{R}(T):operatorname{PolicyValid}(r,P)=1\}.
+$$
 
 For a plan \(r\), define expected quality \(Q(r)\), total execution and localization cost \(C(r)\), operational risk \(R(r)\), and verification/integration burden \(V(r)\). One illustrative objective is:
 
-\[
+$$
 r^* = \underset{r\in\mathcal{R}_{\mathrm{allowed}}(T,P)}{\arg\max}
 \left[Q(r)-\lambda C(r)-\mu R(r)-\nu V(r)\right].
-\]
+$$
 
 This objective is not directly deployable without calibrated, comparable measures and appropriate hard quality constraints. A practical planner may instead use constrained multi-objective optimization, lexicographic safety priorities, or Pareto filtering.
 

@@ -371,9 +371,9 @@ Different answers may produce very different coverage estimates.
 
 Let a task population be:
 
-\[
+$$
 \mathcal{T}=\{T_1,T_2,\ldots,T_n\}
-\]
+$$
 
 For each task \(T_i\), define:
 
@@ -382,17 +382,17 @@ For each task \(T_i\), define:
 
 A weighted coverage measure can be defined as:
 
-\[
+$$
 C(M,\tau)=
 \frac{\sum_{i=1}^{n} w_i a_i(M,\tau)}
 {\sum_{i=1}^{n} w_i}
-\]
+$$
 
 where:
 
-\[
+$$
 0\leq a_i(M,\tau)\leq 1
-\]
+$$
 
 The weights may represent task frequency, economic value, importance, or another explicitly defined criterion.
 
@@ -602,10 +602,10 @@ These requirements motivate explicit policy and action-control mechanisms.
 
 We propose representing an AI system's boundary profile as:
 
-\[
+$$
 B(T,M)=
 (B_R,B_C,B_L,B_P,B_O,B_G)
-\]
+$$
 
 where:
 

@@ -92,9 +92,9 @@ Simulation is useful but does not itself confer:
 
 A candidate perspective specification is:
 
-\[
+$$
 P_i = (G_i, C_i, E_i, M_i, A_i, \Pi_i, V_i)
-\]
+$$
 
 where:
 
@@ -144,9 +144,9 @@ The term *ownership* is used broadly here. Legal title, operational control, acc
 
 Define a **Context Partition** as:
 
-\[
+$$
 K_j=(O_j,D_j,R_j,S_j,L_j)
-\]
+$$
 
 where \(O_j\) is the controlling principal, \(D_j\) the data scope, \(R_j\) access and retention rules, \(S_j\) permitted sharing interfaces, and \(L_j\) audit lineage.
 
@@ -209,17 +209,17 @@ The **Policy Control Plane** is cross-cutting. It constrains localization, retri
 
 For task \(T\), candidate plan \(r\), and policy state \(\Pi\), define:
 
-\[
-\mathcal{R}_{\mathrm{allowed}}(T,\Pi)
-=\{r\in\mathcal{R}:\operatorname{Authorized}(r,T,\Pi)=1\}
-\]
+$$
+\mathcal{R}_{\mathrm{allowed}}(T,\Pi)=
+\{r\in\mathcal{R}:operatorname{Authorized}(r,T,\Pi)=1\}
+$$
 
 Only then may the system optimize among permitted plans:
 
-\[
+$$
 r^*=\arg\max_{r\in\mathcal{R}_{\mathrm{allowed}}}
 \left[Q(r)-\lambda C(r)-\mu R(r)-\nu V(r)\right]
-\]
+$$
 
 where \(Q\) represents expected task quality, \(C\) cost, \(R\) risk, and \(V\) verification and maintenance burden. Coefficients require task-specific calibration; the formula is illustrative, not an implemented optimizer.
 

@@ -64,9 +64,9 @@ This paper does **not** claim that (i) LLMs cannot manipulate graphs or mathemat
 
 Represent a task request as
 
-\[
+$$
 T = (g, x, c, q, d, e, a, p, o, v),
-\]
+$$
 
 where:
 
@@ -87,9 +87,9 @@ These fields are a reference schema, not a requirement that every request carry 
 
 For candidate execution mechanism \(m\), define
 
-\[
+$$
 B(T,m) = (B_R,B_C,B_L,B_P,B_O,B_G),
-\]
+$$
 
 with axes for **representation**, **computation**, **learning**, **perspective**, **ownership**, and **governance**. Each axis may be scored with calibrated, task-dependent estimates, confidence intervals, and supporting evidence. A score is a routing aid, not an objective truth.
 
@@ -224,17 +224,17 @@ An expired capability, ambiguous principal, version mismatch, unavailable verifi
 
 Let \(\mathcal{R}(T)\) be feasible candidate routes for task \(T\). Each route can comprise multiple localized nodes and executors. Define a *conceptual* route utility:
 
-\[
+$$
 U(r\mid T)=\widehat{Q}(r,T)-\lambda\widehat{C}(r,T)-\mu\widehat{R}(r,T)-\nu\widehat{V}(r,T),
-\]
+$$
 
 where \(\widehat{Q}\) is expected task quality, \(\widehat{C}\) total cost, \(\widehat{R}\) operational risk, and \(\widehat{V}\) verification burden. Coefficients reflect the authorized perspective's priorities and must not override hard requirements.
 
 The selected route is
 
-\[
+$$
 r^*\in\arg\max_{r\in\mathcal{R}_{\mathrm{authorized}}(T)} U(r\mid T)
-\]
+$$
 
 subject to acceptance, privacy, latency, reliability, and other hard constraints. When estimates are uncertain, risk-aware selection may use confidence bounds or robust optimization. If \(\mathcal{R}_{\mathrm{authorized}}(T)=\varnothing\), the correct result is **no authorized route**, not an unconstrained best-effort action.
 

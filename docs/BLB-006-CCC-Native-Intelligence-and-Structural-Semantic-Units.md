@@ -115,9 +115,9 @@ Natural language may remain preferable for novel concepts, low-frequency objects
 
 We propose the following *logical* structure:
 
-\[
+$$
 SSU = (ID, Version, Core, Context, Constraints, Relations, Evidence, Policy, Interface)
-\]
+$$
 
 The fields are defined as follows:
 
@@ -212,16 +212,16 @@ This marker is illustrative; a production implementation should use an unambiguo
 
 At Level 2, an encoder maps an authorized SSU projection and relevant context into a representation consumed by the model:
 
-\[
- z_{u,c} = E_{\theta}(\operatorname{Project}(u,c,\pi))
-\]
+$$
+ z_{u,c} = E_{\theta}(operatorname{Project}(u,c,\pi))
+$$
 
 where:
 
 - \(u\) is the resolved unit;
 - \(c\) is the task context;
 - \(\pi\) is the enforced access policy;
-- \(\operatorname{Project}\) selects authorized fields;
+- \(operatorname{Project}\) selects authorized fields;
 - \(E_{\theta}\) is an encoder.
 
 The embedding may enter through a retrieval adapter, prefix representation, cross-attention, or other documented interface.
@@ -366,16 +366,16 @@ Algorithm: CCC-Native Structural Execution (CNSE)
 
 For a candidate mode \(m\), define an estimated total cost:
 
-\[
+$$
  C_{total}(m) = C_{loc}(m)+C_{resolve}(m)+C_{encode}(m)+C_{infer}(m)+C_{verify}(m)+C_{maint}(m)
-\]
+$$
 
 Let \(Q(m)\) denote task quality and \(R(m)\) expected operational risk. A conceptual selection objective is:
 
-\[
+$$
  m^* = \arg\max_{m\in\mathcal{M}_{allowed}}
  \left[Q(m)-\lambda C_{total}(m)-\mu R(m)\right]
-\]
+$$
 
 The admissible set \(\mathcal{M}_{allowed}\) must already satisfy hard authorization and safety constraints. Cost and quality estimates should be calibrated using observed workloads rather than assumed constants.
 
@@ -403,9 +403,9 @@ Examples include contradictory observations, domain shifts, failed verification,
 
 A learning system may propose:
 
-\[
- \Delta_u = \operatorname{ProposeUpdate}(u, O, V)
-\]
+$$
+ \Delta_u = operatorname{ProposeUpdate}(u, O, V)
+$$
 
 where \(O\) denotes observations and \(V\) denotes verification results.
 

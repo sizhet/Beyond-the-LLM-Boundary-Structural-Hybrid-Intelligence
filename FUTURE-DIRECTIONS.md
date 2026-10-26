@@ -70,9 +70,9 @@ Which growth operators—Add, Replace, Split, Merge, Refine, Restrict, Retire, a
 
 **Model:**
 
-\[
+$$
 \Delta V = \Delta Q - \lambda\Delta C_{\mathrm{runtime}} - \mu\Delta C_{\mathrm{integration}} - \nu\Delta C_{\mathrm{verification}} - \rho\Delta C_{\mathrm{governance}} - \sigma\Delta C_{\mathrm{maintenance}}.
-\]
+$$
 
 The coefficients represent application-dependent valuations, not universal constants. Report all components separately rather than only a composite score.
 

@@ -120,15 +120,15 @@ Let a task instance be \(x\) from task family \(\mathcal{T}\), with requirements
 
 Define a lifecycle-adjusted cost vector:
 
-\[
+$$
 \mathbf{C}(r,x,q) = (C_{\mathrm{compute}}, C_{\mathrm{latency}}, C_{\mathrm{memory}}, C_{\mathrm{energy}}, C_{\mathrm{integration}}, C_{\mathrm{verification}}).
-\]
+$$
 
 A pathway is **feasible** only if it meets the required quality and policy constraints. For a declared cost aggregation \(J\), compare a candidate pathway \(r_a\) with a reference pathway \(r_b\):
 
-\[
+$$
 \Delta_{\mathrm{CRB}}(x;q,r_a,r_b) = J(\mathbf{C}(r_a,x,q)) - J(\mathbf{C}(r_b,x,q)).
-\]
+$$
 
 A positive value indicates that \(r_a\) is more costly under the chosen metric and constraints. If one pathway fails the quality or authorization requirements, it should be recorded as **infeasible**, not assigned an arbitrary finite cost.
 
@@ -140,9 +140,9 @@ The word *associated* is deliberate: experiments must investigate whether the pe
 
 For task size \(n\), define a comparative cost ratio for feasible systems:
 
-\[
+$$
 \rho(n)=\frac{J(\mathbf{C}(r_a,n))}{J(\mathbf{C}(r_b,n))}.
-\]
+$$
 
 If \(\rho(n)\) grows materially with \(n\), the evidence suggests a scale-sensitive comparative disadvantage in the evaluated regime. This is **not** automatically an asymptotic complexity lower bound; it may reflect constants, implementation choices, context limits, or hardware effects.
 
@@ -160,9 +160,9 @@ Different stakeholders value latency, energy, correctness, privacy, and maintain
 
 We propose modeling available representations and execution environments as a directed graph:
 
-\[
+$$
 G_R=(V_R,E_R).
-\]
+$$
 
 Each node \(v\in V_R\) denotes a representation or execution environment, such as natural-language text, a typed graph, relational algebra, a theorem prover, a geometric model, or a numerical solver. Each directed edge \(e\in E_R\) denotes an available conversion, interpretation, compilation, API invocation, or verification step.
 
