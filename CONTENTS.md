@@ -19,8 +19,6 @@ This document is the canonical navigation index for the BLB-SHI research reposit
 | [FIGURE-INDEX.md](FIGURE-INDEX.md) | Figure descriptions, placements, and source paths |
 | [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md) | Open questions, validation roadmap, and future work |
 
-*Some links point to companion files planned for the v1.0.0 release; they become active as those files are added.*
-
 ## 2. The Eight Core Research Papers
 
 The series moves from diagnosing the boundaries of language-centric intelligence to designing, governing, and evolving structural hybrid intelligence.

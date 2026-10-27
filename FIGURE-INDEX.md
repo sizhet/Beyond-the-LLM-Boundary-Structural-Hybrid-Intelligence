@@ -7,7 +7,7 @@
 
 ## Purpose
 
-This index describes the seven planned figures supporting the eight-paper BLB-SHI series. The illustrations are conceptual architecture maps, not measurements or evidence that the proposed architecture outperforms existing systems.
+This index describes the seven figures supporting the eight-paper BLB-SHI series. The illustrations are conceptual architecture maps, not measurements or evidence that the proposed architecture outperforms existing systems.
 
 > **Asset verification note:** The seven names below are the canonical target filenames. Before release, verify that **seven separate PNG files** exist under `figures/`, with content corresponding to each description. A single composite image containing seven panels is **not** equivalent to seven individually named assets. If the composite is used instead, update all links and captions consistently.
 

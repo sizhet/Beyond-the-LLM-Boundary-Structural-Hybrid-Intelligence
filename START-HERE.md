@@ -181,7 +181,7 @@ A negative or mixed result is valuable: the objective is to discover **where** e
 
 ## 8. Figures and Navigation
 
-The planned seven-figure set is:
+The seven-figure set is:
 
 1. `figures/Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png`
 2. `figures/Fig-002-Language-Coverage-vs-Structural-Sufficiency.png`

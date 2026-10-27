@@ -52,7 +52,7 @@ Eight conceptual research papers establishing the BLB-SHI research framework:
 - `FIGURE-INDEX.md` — figure catalog and placement guidance.
 - `FUTURE-DIRECTIONS.md` — validation roadmap and open questions.
 - `CHANGELOG.md` — release history.
-- Seven planned figure identifiers, `Fig-001` through `Fig-007`, covering the grand map, language sufficiency, representation barriers, scaling economics, sovereignty, localization/CCC, and BASHI growth.
+- Seven figure identifiers, `Fig-001` through `Fig-007`, covering the grand map, language sufficiency, representation barriers, scaling economics, sovereignty, localization/CCC, and BASHI growth.
 
 **Figure packaging note:** The seven-figure concept was initially rendered as a composite illustration. Individual PNG assets should be verified against the names and paths in `FIGURE-INDEX.md` before public release; this changelog does not assert that all seven independent images already exist.
 

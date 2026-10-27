@@ -5,7 +5,7 @@
 **BLB-SHI · Research Series v1.0.0 · October 2026**  
 **Authors:** Sizhe Tan & GPT-Obot  
 **Status:** Conceptual research, reference architecture, and falsifiable research agenda  
-**License:** Apache-2.0 (see [`LICENSE`](LICENSE.txt) when included in the repository)
+**License:** Apache-2.0 (see [`LICENSE`](LICENSE.txt)
 
 > **Universal interface ≠ universal internal architecture.**  
 > Language is an extraordinarily powerful medium for intelligence, but being able to *describe* a task in language does not imply that language is the best representation for *executing*, *verifying*, *learning*, or *governing* it.
@@ -31,11 +31,8 @@ The research program connects eight themes:
 
 **Research stance:** These are architectural hypotheses and design proposals, **not** claims that BASHI has been implemented, benchmarked, or demonstrated superior to strong LLM-with-tools baselines.
 
----
-
 ![Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png](figures/Fig-001-Beyond-the-LLM-Boundary-Grand-Map.png)
 
----
 
 ## 2. The Central Thesis
 
@@ -58,30 +55,29 @@ BLB-SHI examines task-dependent boundaries in:
 
 These are not categorical limits shared by all LLM systems. Their severity depends on the task, model, tools, interfaces, policies, and available alternatives. Some barriers can be mitigated by better prompting or tool use; others motivate distinct computational structures or ownership partitions.
 
----
 
 ## 3. BASHI: The Proposed Architecture
 
 ```text
-                 Real-World Tasks, Goals, Contexts
-                               |
-                    Task & Boundary Analysis
-                               |
-                 Structural Localization Layer
-                   (MDT / CCC / UTN / graphs)
-                               |
-                    Hybrid Execution Layer
-             (LLMs / specialists / tools / solvers)
-                               |
-                    Verification & Evidence
-                               |
-                Structural Growth & Learning
-                    (candidate -> test -> review)
-                               |
-                  Governed Structural Updates
+         Real-World Tasks, Goals, Contexts
+                       |
+            Task & Boundary Analysis
+                       |
+         Structural Localization Layer
+           (MDT / CCC / UTN / graphs)
+                       |
+            Hybrid Execution Layer
+     (LLMs / specialists / tools / solvers)
+                       |
+            Verification & Evidence
+                       |
+        Structural Growth & Learning
+            (candidate -> test -> review)
+                       |
+          Governed Structural Updates
 
-   POLICY CONTROL PLANE: authorization, ownership,
-   safety, audit, and update controls across all layers
+POLICY CONTROL PLANE: authorization, ownership,
+safety, audit, and update controls across all layers
 ```
 
 ---
@@ -226,8 +222,6 @@ Beyond-the-LLM-Boundary-Structural-Hybrid-Intelligence/
     └── BLB-SHI-v1.0.0-ResearchGate-Overview.pdf
 ```
 
-This tree is the **planned v1.0.0 publication layout**, not an assertion that every file has already been committed.
-
 ---
 
 ## 9. Scope, Limits, and Publication Principles
@@ -248,7 +242,7 @@ See [`FUTURE-DIRECTIONS.md`](FUTURE-DIRECTIONS.md) for a proposed validation roa
 
 > Tan, Sizhe, and GPT-Obot. (2026). *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture (BLB-SHI)*. Version 1.0.0. Research repository.
 
-For machine-readable metadata, use [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json) when published. **Do not insert a placeholder DOI as if it were registered.**
+For machine-readable metadata, use [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json).
 
 The intended repository license is **Apache-2.0**; the actual terms are governed by the published [`LICENSE`](LICENSE.txt) file.
 
