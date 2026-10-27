@@ -375,10 +375,10 @@ $$
 \mathcal{T}=\{T_1,T_2,\ldots,T_n\}
 $$
 
-For each task \(T_i\), define:
+For each task $T_i$, define:
 
-- \(w_i\): task weight.
-- \(a_i(M,\tau)\): success measure for model or system \(M\) under evaluation conditions \(\tau\).
+- $w_i$: task weight.
+- $a_i(M,\tau)$: success measure for model or system \(M\) under evaluation conditions \(\tau\).
 
 A weighted coverage measure can be defined as:
 
