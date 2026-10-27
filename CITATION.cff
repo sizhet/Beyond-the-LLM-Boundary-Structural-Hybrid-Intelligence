@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: >-
   If you use this research repository, please cite this release using the
   metadata below. Add the Zenodo DOI to this file after DOI registration.
-type: software
+type: generic
 title: 'Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture'
 authors:
   - family-names: Tan
