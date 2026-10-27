@@ -320,7 +320,11 @@ Candidate SSU IDs ----> Registry + Version Resolution
                    (review before commit)
 ```
 
-**Figure guidance:** The planned `Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png` should be placed after this subsection. It is shared conceptually with BLB-005 and should emphasize the semantic interface between localization and execution.
+---
+
+![Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png](../figures/Fig-006-Localization-Execution-Decoupling-and-CCC-Native-Intelligence.png)
+
+---
 
 ### 7.2 Localization–Execution Decoupling
 
