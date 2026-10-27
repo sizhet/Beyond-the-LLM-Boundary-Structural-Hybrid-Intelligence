@@ -17,7 +17,7 @@ This project follows the principles of [Keep a Changelog](https://keepachangelog
 
 These items are research directions, not commitments or completed results. See [FUTURE-DIRECTIONS.md](FUTURE-DIRECTIONS.md).
 
-## [1.0.0] - 2026-10-17
+## [1.0.0] - 2026-10-27
 
 ### Added — Foundational Research Series
 
