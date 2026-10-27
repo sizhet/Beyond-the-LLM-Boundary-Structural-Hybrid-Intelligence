@@ -238,7 +238,7 @@ See [`FUTURE-DIRECTIONS.md`](FUTURE-DIRECTIONS.md) for a proposed validation roa
 
 ## 10. Citation and License
 
-**Suggested citation (until a DOI is assigned):**
+DOI: 10.5281/zenodo.23705941
 
 > Tan, Sizhe, and GPT-Obot. (2026). *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture (BLB-SHI)*. Version 1.0.0. Research repository.
 
@@ -261,6 +261,8 @@ The future of AI need not be a contest between one ever-larger general model and
 ## Authors
 
 **Sizhe Tan & GPT-Obot**
+
+DOI: 10.5281/zenodo.23705941
 
 ---
 

@@ -169,7 +169,7 @@ These links provide research context, not proof of the present series' empirical
 | [ResearchGate Overview PDF](release/BLB-SHI-v1.0.0-ResearchGate-Overview.pdf) | One-page research introduction and links |
 | [LICENSE](LICENSE.txt) | Apache License 2.0 (intended repository license) |
 
-**Suggested attribution:** Sizhe Tan & GPT-Obot (2026), *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*, version 1.0.0. Add a persistent DOI only after one has been assigned; do not use a placeholder as though it were a registered DOI.
+**Suggested attribution:** Sizhe Tan & GPT-Obot (2026), *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*, version 1.0.0. DOI: 10.5281/zenodo.23705941.
 
 ## 9. Closing Orientation
 

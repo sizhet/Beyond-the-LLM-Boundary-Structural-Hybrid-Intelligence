@@ -207,6 +207,6 @@ See also [README.md](README.md), [CONTENTS.md](CONTENTS.md), [GLOSSARY.md](GLOSS
 
 ---
 
-**Citation:** Sizhe Tan & GPT-Obot, *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*, research series v1.0.0 (2026). Use the repository's `CITATION.cff` and DOI metadata when available; do not assume a DOI has been assigned.
+**Citation:** Sizhe Tan & GPT-Obot, *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*, research series v1.0.0 (2026). Use the repository's `CITATION.cff` and DOI metadata.
 
 **License:** Apache-2.0, subject to the repository's published `LICENSE` file.

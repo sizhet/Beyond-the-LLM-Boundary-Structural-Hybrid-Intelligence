@@ -68,7 +68,8 @@ Eight conceptual research papers establishing the BLB-SHI research framework:
 
 - **Authors:** Sizhe Tan & GPT-Obot.
 - **License:** Apache-2.0, subject to the repository's `LICENSE` file.
-- Citation metadata, DOI, and release URLs should be checked against the actual public release; no DOI is asserted here.
+
+DOI: 10.5281/zenodo.23705941
 
 ---
 
