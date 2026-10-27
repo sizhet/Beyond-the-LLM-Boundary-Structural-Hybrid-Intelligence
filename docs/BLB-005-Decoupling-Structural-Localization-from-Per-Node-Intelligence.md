@@ -465,7 +465,7 @@ This principle provides the architectural bridge from the boundary analyses in B
 
 ## Suggested Citation
 
-Tan, S., & GPT-Obot. (2026). *Decoupling Structural Localization from Per-Node Intelligence* (BLB-005, v1.0.0). In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*. DOI pending.
+Tan, S., & GPT-Obot. (2026). *Decoupling Structural Localization from Per-Node Intelligence* (BLB-005, v1.0.0). In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture*. DOI: 10.5281/zenodo.23705941.
 
 ---
 

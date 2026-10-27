@@ -472,7 +472,7 @@ The references provide background and adjacent methods. The CRB definition, prop
 
 ## Citation
 
-Suggested citation before DOI assignment:
+DOI: 10.5281/zenodo.23705941
 
 Tan, S., & GPT-Obot. (2026). *Computational Representation Barriers Beyond Natural Language.* BLB-002, Version 1.0.0. In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture.*
 

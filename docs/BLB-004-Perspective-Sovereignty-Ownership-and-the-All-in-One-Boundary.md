@@ -485,7 +485,7 @@ The references below provide foundational or adjacent research context; they do 
 
 ## Citation
 
-Tan, S., & GPT-Obot. (2026). *Perspective Sovereignty, Ownership, and the All-in-One Boundary.* BLB-004, Version 1.0.0. In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture.* DOI pending.
+Tan, S., & GPT-Obot. (2026). *Perspective Sovereignty, Ownership, and the All-in-One Boundary.* BLB-004, Version 1.0.0. In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture.* DOI: 10.5281/zenodo.23705941.
 
 **Research status:** Conceptual architecture and falsifiable hypotheses; empirical validation pending.
 

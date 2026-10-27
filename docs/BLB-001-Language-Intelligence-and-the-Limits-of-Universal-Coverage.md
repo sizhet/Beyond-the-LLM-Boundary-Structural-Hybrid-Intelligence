@@ -1058,7 +1058,7 @@ The BLB-SHI project builds upon these research directions while introducing its 
 
 ## Citation
 
-Suggested citation before DOI assignment:
+DOI: 10.5281/zenodo.23705941
 
 Tan, S., & GPT-Obot. (2026). *Language Intelligence and the Limits of Universal Coverage.* BLB-001, Version 1.0.0. In *Beyond the LLM Boundary: Structural Hybrid Intelligence, Representation Barriers, and the Future of AI Architecture.*
 
